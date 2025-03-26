@@ -1,7 +1,7 @@
-# custom-texture-page
+# Custom Texture Page for generated sprites
 Custom texture page on constant grid for GameMaker Studio 2
 
-Why Create a Custom Texture Page System?
+# Why Create a Custom Texture Page System?
 
 GameMaker Studio 2 does not place sprites generated using the sprite_create* family of functions onto an existing texture page. Instead, it creates a new texture page with only that single sprite on it. This causes significant issues with texture swaps during gameplay, especially when a large number of such sprites are created.
 
